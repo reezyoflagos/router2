@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  background-color: whitesmoke;
+}
+.foot .list {
+  display: flex;
+  padding: 40px;
+}
+.foot .list ul {
+  padding: 40px;
+  list-style: none;
+  text-decoration: none;
+  font-size: larger;
+  color: grey;
+}
+.foot .list ul li:hover {
+  color: black;
+  background-color: oldlace;
+}/*# sourceMappingURL=foot.css.map */

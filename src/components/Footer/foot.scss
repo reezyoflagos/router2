@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding:60px;
+    background-color:whitesmoke;
+
+    .list{
+        display: flex;
+        padding:40px;
+        ul{
+            padding:40px;
+            list-style: none;
+            text-decoration: none;
+            font-size: larger;
+            color:grey;
+            li:hover{
+                color: black;
+                background-color:oldlace;
+            }
+        }
+    }
+}
